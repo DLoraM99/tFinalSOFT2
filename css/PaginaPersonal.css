@@ -1,0 +1,483 @@
+.mediaViewInfo {
+	--web-view-name: Página Principal;
+	--web-view-id: P_gina_Principal;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: P_gina_Principal;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.P_gina_Principal_Class {
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Página Principal;
+	--web-view-id: P_gina_Principal;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+.Rect_ngulo_559_ {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+.Navbar_BG {
+	filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.039));
+	position: absolute;
+	overflow: visible;
+	width: 1646px;
+	height: 97px;
+	left: 292px;
+	top: 1px;
+}
+.Username_Class {
+	position: absolute;
+	left: 1779px;
+	top: 31px;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	line-height: 22px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(77,79,92,1);
+}
+.Avatar_Class {
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 1855px;
+	top: 19px;
+	overflow: visible;
+}
+.Divider {
+	position: absolute;
+	overflow: visible;
+	width: 2px;
+	height: 31px;
+	left: 1762px;
+	top: 25px;
+}
+.icon_customers_Class {
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 28px;
+	top: 279px;
+	overflow: visible;
+}
+.Uni_n_10 {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Informaci_n_Class {
+	position: absolute;
+	left: 57px;
+	top: 277px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+.Tablas_Class {
+	position: absolute;
+	left: 58px;
+	top: 205px;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+.P_gina_Principal_bb_Class {
+	position: absolute;
+	left: 58px;
+	top: 132px;
+	overflow: visible;
+	width: 116px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+.Grupo_249_Class {
+	position: absolute;
+	width: 292.229px;
+	height: 79px;
+	left: 0px;
+	top: 1px;
+	overflow: visible;
+}
+.Logo_Class {
+	position: absolute;
+	width: 292.229px;
+	height: 79px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.BG {
+	filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.051));
+	overflow: visible;
+	position: absolute;
+	width: 301.229px;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Logo_bf_Class {
+	position: absolute;
+	left: 92px;
+	top: 25px;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: KG Red Hands;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 1px;
+}
+.LOGIN_Class {
+	position: absolute;
+	width: 48px;
+	height: 56px;
+	left: 25px;
+	top: 12px;
+	overflow: visible;
+}
+.Grupo_250_Class {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 28px;
+	top: 207px;
+	overflow: visible;
+}
+.Trazado_359 {
+	overflow: visible;
+	position: absolute;
+	width: 4.5px;
+	height: 18px;
+	left: 6.75px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trazado_360 {
+	overflow: visible;
+	position: absolute;
+	width: 4.5px;
+	height: 6.75px;
+	left: 0px;
+	top: 11.25px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trazado_361 {
+	overflow: visible;
+	position: absolute;
+	width: 4.5px;
+	height: 12.375px;
+	left: 13.5px;
+	top: 5.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.icon_home_Class {
+	position: absolute;
+	width: 18px;
+	height: 16.786px;
+	left: 28px;
+	top: 136px;
+	overflow: visible;
+}
+.Trazado_357 {
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 16.786px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.DBSp_Group_Class {
+	position: absolute;
+	left: 106px;
+	top: 1048px;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(190,190,190,1);
+}
+.P_gina_Principal_bo_Class {
+	position: absolute;
+	left: 373px;
+	top: 28px;
+	overflow: visible;
+	width: 139px;
+	white-space: nowrap;
+	line-height: 44px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(67,66,93,1);
+}
+.Buen_d_a__Class {
+	position: absolute;
+	left: 641px;
+	top: 172px;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	line-height: 60px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 36px;
+	color: rgba(67,66,93,1);
+}
+.John_Doe_Class {
+	position: absolute;
+	left: 641px;
+	top: 226px;
+	overflow: visible;
+	width: 230px;
+	white-space: nowrap;
+	line-height: 78px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 54px;
+	color: rgba(67,66,93,1);
+}
+.Avatar_br_Class {
+	position: absolute;
+	width: 119px;
+	height: 119px;
+	left: 922px;
+	top: 172px;
+	overflow: visible;
+}
+.Grupo_251_Class {
+	position: absolute;
+	width: 154.865px;
+	height: 53.5px;
+	left: 1166.005px;
+	top: 172.5px;
+	overflow: visible;
+}
+.Trazado_362 {
+	overflow: visible;
+	position: absolute;
+	width: 154.865px;
+	height: 53.5px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.MI_PERFIL_Class {
+	position: absolute;
+	left: 39.13px;
+	top: 17.719px;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(218,83,44,1);
+}
+.Rect_ngulo_560 {
+	position: absolute;
+	overflow: visible;
+	width: 658px;
+	height: 485px;
+	left: 383px;
+	top: 504px;
+}
+.Estudiantes_Class {
+	position: absolute;
+	left: 408px;
+	top: 453px;
+	overflow: visible;
+	width: 179px;
+	white-space: nowrap;
+	line-height: 58px;
+	margin-top: -11.5px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 35px;
+	color: rgba(67,66,93,1);
+}
+.Rect_ngulo_561 {
+	position: absolute;
+	overflow: visible;
+	width: 658px;
+	height: 485px;
+	left: 1166px;
+	top: 504px;
+}
+.Cursos_Class {
+	position: absolute;
+	left: 1191px;
+	top: 453px;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	line-height: 58px;
+	margin-top: -11.5px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 35px;
+	color: rgba(67,66,93,1);
+}
+.Tablas_recientes_Class {
+	position: absolute;
+	left: 383px;
+	top: 392px;
+	overflow: visible;
+	width: 257px;
+	white-space: nowrap;
+	line-height: 58px;
+	margin-top: -11.5px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(67,66,93,1);
+}
+.Grupo_252_Class {
+	position: absolute;
+	width: 154.865px;
+	height: 53.5px;
+	left: 1166.005px;
+	top: 238.5px;
+	overflow: visible;
+}
+.Trazado_362_b {
+	overflow: visible;
+	position: absolute;
+	width: 154.865px;
+	height: 53.5px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.CERRAR_SESI_N_Class {
+	position: absolute;
+	left: 16.595px;
+	top: 17.719px;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(218,83,44,1);
+}
+.Cerrar_Sesi_n_Class {
+	position: absolute;
+	left: 56px;
+	top: 967px;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+.icon_close_Class {
+	position: absolute;
+	width: 14.252px;
+	height: 14.252px;
+	left: 28px;
+	top: 971px;
+	overflow: visible;
+}
+.Rect_ngulo_145 {
+	width: 17.995px;
+	height: 2.159px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-1.8719,6.0461) rotate(45deg);
+	transform-origin: center;
+}
+.Rect_ngulo_146 {
+	width: 17.995px;
+	height: 2.159px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-1.8719,6.0461) rotate(135deg);
+	transform-origin: center;
+}

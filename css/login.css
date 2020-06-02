@@ -1,0 +1,218 @@
+.mediaViewInfo {
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Login;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Login_Class {
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+.Rect_ngulo_181_c {
+	position: absolute;
+	overflow: visible;
+	width: 900px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+.LOGIN_Class {
+	position: absolute;
+	width: 173px;
+	height: 200px;
+	left: 364px;
+	top: 440px;
+	overflow: visible;
+}
+.Rect_ngulo_182 {
+	position: absolute;
+	overflow: visible;
+	width: 1020px;
+	height: 1080px;
+	left: 900px;
+	top: 0px;
+}
+._Bienvenido_otra_vez__Por_favo_Class {
+	opacity: 0.5;
+	position: absolute;
+	left: 1189px;
+	top: 262px;
+	overflow: visible;
+	width: 443px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(77,79,92,1);
+}
+.btn_login_Class {
+	position: absolute;
+	width: 208px;
+	height: 56px;
+	left: 1185px;
+	top: 584px;
+	overflow: visible;
+}
+.Rect_ngulo_166 {
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+.Ingresar_Class {
+	position: absolute;
+	left: 70px;
+	top: 14px;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.btn_signup_Class {
+	position: absolute;
+	width: 208px;
+	height: 56px;
+	left: 1427px;
+	top: 584px;
+	overflow: visible;
+}
+.Rect_ngulo_167 {
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+.Registrarse_Class {
+	position: absolute;
+	left: 58px;
+	top: 14px;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(77,79,92,1);
+}
+.label_Class {
+	position: absolute;
+	width: 446px;
+	height: 30.809px;
+	left: 1187px;
+	top: 383.5px;
+	overflow: visible;
+}
+.Correo_electr_nico_Class {
+	position: absolute;
+	left: 6.08px;
+	top: 0px;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+.Trazado_297 {
+	overflow: visible;
+	position: absolute;
+	width: 446px;
+	height: 2px;
+	left: 0px;
+	top: 30.809px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.label_dm_Class {
+	position: absolute;
+	width: 446px;
+	height: 30.809px;
+	left: 1187px;
+	top: 459.5px;
+	overflow: visible;
+}
+.Contrase_a_Class {
+	position: absolute;
+	left: 6.08px;
+	top: 0px;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+.Trazado_297_do {
+	overflow: visible;
+	position: absolute;
+	width: 446px;
+	height: 2px;
+	left: 0px;
+	top: 30.809px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Logo_Class {
+	position: absolute;
+	left: 1283px;
+	top: 199px;
+	overflow: visible;
+	width: 256px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: KG Red Hands;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(67,66,93,1);
+	letter-spacing: 1px;
+}
