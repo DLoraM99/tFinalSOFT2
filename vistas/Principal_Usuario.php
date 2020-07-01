@@ -81,7 +81,7 @@
 	
 		<nav id="menu_usuario"><ul>
 			<li><a class="P_Principal" href="../vistas/Principal_Usuario.php">Pagina Principal</a></li>
-			<li><a class="Tablas" href="../vistas/Tablas.php">Tablas</a></li>
+			<li><a class="Tablas" href="../vistas/tablasCursos.php">Tablas</a></li>
 			<li ><a class="Informacion" href="../vistas/Perfil.php">Informacion</a></li>
 			
 		</ul></nav>		

@@ -7,7 +7,20 @@
 <title>Tablas</title>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../css/Tablas.css"/>
 <link rel="shortcut icon" type="imagen/x-ion" href="../img/ICONO.ico">
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 </head>
+
 <body>
 <div id="Tablas" class="Tablas_Class">
 	<svg data-type="Rectangle" data-name="Rectángulo 562" class="Rect_ngulo_562_dt">
@@ -91,14 +104,17 @@
     <form name="frmCerrarSesion" action="../vistas/PaginaPrincipal.php" method="post">
 		<div id="Cerrar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Cerrar Sesion"></div>
 	</form>
+
 	<div id="botones">
-	<input class="button" id="Cursos" type="button" value="Cursos" >
-	<input class="button" id="Tutores" type="button" value="Tutores" >
-	<input class="button" id="Estudiantes" type="button" value="Estudiantes" >
-	<input class="button" id="Profesores" type="button" value="Profesores" >
-	<input class="button" id="Aulas" type="button" value="Aulas" >
-	<input class="button" id="Asignación Estudiantes" type="button" value="Asignación Estudiantes" >
-    </div>
+
+	<a href="../vistas/tablasCursos.php"><input class="button" id="Cursos" type="button" value="Cursos" ></a>
+	<a href="../vistas/tablasTutores.php"><input class="button" id="Tutores" type="button" value="Tutores" ></a>
+	<a href="../vistas/tablasEstudiantes.php"><input class="button" id="Estudiantes" type="button" value="Estudiantes" ></a>
+	<a href="../vistas/tablasProfesores.php"><input class="button" id="Profesores" type="button" value="Profesores" ></a>
+	<a href="../vistas/tablasAulas.php"><input class="button" id="Aulas" type="button" value="Aulas" ></a>
+	<a href="../vistas/tablasAsignacion.php"><input class="button" id="Asignación Estudiantes" type="button" value="Asignación Estudiantes" ></a>
+	</div>
+	
 
 </div>
 </body>
