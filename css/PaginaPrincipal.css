@@ -1,0 +1,107 @@
+body{
+	width: 100%;
+	margin: auto;
+	max-width:2000px;
+	min-width: 600px;
+
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+
+}
+
+.Pagina_Principal{
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 100%;
+	overflow: hidden;
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;	
+}
+#portada{
+	position: absolute;
+	top: 100px;
+	right: 50%;
+}
+
+#menu{
+	position: absolute;
+	list-style: none;
+	width: 600px;
+	height: 100px;
+	right: 30px;
+	bottom: 500px;
+	font-family : 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	font-size: 30px;		
+}
+#menu li{
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 30px;
+
+}
+
+	
+#INGRESAR{
+	padding-left: 20px;
+	padding-right: 20px;
+	border:3px solid ;
+	border-style: solid #E84D12;
+	border-radius: 20px;
+	color:#E84D12; 
+}
+a{
+	text-decoration: none;
+	color: black;
+	
+}
+a:hover{
+	font-size: 25px;
+}
+
+#copyright{
+	position: relative;
+	width: 500px;
+	height: 50px;
+	right: 2%;
+	top: 570px;
+	font-size: 20px;
+	font-family: Source Sans Pro ;
+	color: #FFFFFF;
+	position: absolute;
+	overflow: visible;	
+}
+
+#contenido1{
+	position: absolute;
+	width: 600px;
+	top: 150px;
+	left: 55%;
+	font-family: "Arial";
+	font-size: 28px;
+	color: #1f103D;
+
+	
+}
+
+#contenido3{
+	position: absolute;
+	width: 550px;
+	top: 400px;
+	left: 55%;
+	font-family: "Arial";
+	font-size: 35px;
+	font-weight: bold;
+}

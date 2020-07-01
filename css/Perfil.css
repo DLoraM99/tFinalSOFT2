@@ -1,0 +1,393 @@
+body{
+	width: 100%;
+	margin: auto;
+	max-width:2000px;
+	min-width: 600px;
+
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+/*--------------No tocar tema de los colores, pagina estatica e iconos recordar que es SVG----------------------------------------------------- */
+.Perfil_Class {
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 1345px;
+	height: 824px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+.Rect_ngulo_562_dt {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+.Navbar_BG {
+	filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.039));
+	position: absolute;
+	overflow: visible;
+	width: 1646px;
+	height: 97px;
+	left: 292px;
+	top: 1px;
+}
+
+.Divider {
+	position: absolute;
+	overflow: visible;
+	width: 2px;
+	height: 31px;
+	left: 1762px;
+	top: 25px;
+}
+.icon_customers_Class {
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 28px;
+	top: 279px;
+	overflow: visible;
+}
+.icon_close_Class {
+	position: absolute;
+	width: 14.252px;
+	height: 14.252px;
+	left: 28px;
+	top: 771px;
+	overflow: visible;
+}
+.Rect_ngulo_145 {
+	width: 17.995px;
+	height: 2.159px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-1.8719,6.0461) rotate(45deg);
+	transform-origin: center;
+}
+.Rect_ngulo_146 {
+	width: 17.995px;
+	height: 2.159px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-1.8719,6.0461) rotate(135deg);
+	transform-origin: center;
+}
+.icon_home_Class {
+	position: absolute;
+	width: 18px;
+	height: 16.786px;
+	left: 28px;
+	top: 136px;
+	overflow: visible;
+}
+.Trazado_359 {
+	overflow: visible;
+	position: absolute;
+	width: 4.5px;
+	height: 18px;
+	left: 6.75px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trazado_360 {
+	overflow: visible;
+	position: absolute;
+	width: 4.5px;
+	height: 6.75px;
+	left: 0px;
+	top: 11.25px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trazado_361 {
+	overflow: visible;
+	position: absolute;
+	width: 4.5px;
+	height: 12.375px;
+	left: 13.5px;
+	top: 5.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Grupo_254_Class {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 28px;
+	top: 207px;
+	overflow: visible;
+}
+.Grupo_253_Class {
+	position: absolute;
+	width: 292.229px;
+	height: 79px;
+	left: 0px;
+	top: 1px;
+	overflow: visible;
+}
+.Logo_Class {
+	position: absolute;
+	width: 292.229px;
+	height: 79px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Logo_d_Class {
+	position: absolute;
+	left: 92px;
+	top: 25px;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: KG Red Hands;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 1px;
+}
+
+.Uni_n_10 {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+
+.Grupo_253_Class .Logo{
+	padding-left: 20px;
+}
+/*-------------------------------------------------------------MENU--------------------------------------------------------------------------*/
+
+#menu_usuario{
+	position: absolute;
+	list-style: none;
+	width: 255px;
+	height: 545px;
+	left: 2px;
+	bottom: 182.5px;			
+}
+#menu_usuario li {
+	font-size: 17px;
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.P_Principal{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding:9px 50px 10px 55px;
+}
+
+.Informacion{	
+	text-decoration: none;
+	color: #FFFFFF;
+	padding:9px 98px 10px 55px;
+
+}
+.Tablas{
+	text-decoration: none;	
+	color: #FFFFFF;
+	padding:9px 138px 10px 55px;
+
+}
+#Cerrar{
+	position: absolute;
+	list-style: none;
+	width: 250px;
+	height: 545px;
+	left: 0px;
+	top: 770px;		
+}
+#Cerrar .Cerrar{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding:10px 55px 10px 55px;	
+}
+a:hover{
+	font-size: 19px;
+	font-weight: bold;
+}
+
+
+
+#Mi_Perfil{
+	position: absolute;
+	left: 300px;
+	bottom:775px;
+	color:rgb(19, 16, 15);
+	font-size: 20px;
+	font-family: 'Roboto';
+	font-weight: bold;
+}
+#F_Nombre1{
+	position: absolute;
+	list-style: none;
+	width: 200px;
+	height: 100px;
+	left: 1140px;
+	bottom: 720px;
+	
+}
+#Nombre1{
+	position: absolute;
+	left: 1215px;
+	bottom: 770px;
+	font-weight: bold;
+	font-size: 20px;	
+}
+#F_Nombre2{
+	position: absolute;
+	list-style: none;
+	width: 200px;
+	height: 100px;
+	left: 600px;
+	bottom: 620px;
+}
+
+#Nombre2{
+	position: absolute;
+	left: 750px;
+	bottom: 635px;
+	font-weight: bold;
+	font-size: 50px;	
+}
+
+
+.Datos{
+	position: absolute;
+	left: 550px;
+	top: 300px;
+	width: 800px;
+	height:130px;
+	
+}
+.Datos #cuadro1{
+	width: 520px;
+	height: 30px;
+	font-size:16px;
+	margin-bottom: 10px;
+}
+.Datos #cuadro1 #Nombre{
+	width: 200px;
+	height: 25px;
+	margin-left: 134px;
+	border: 3px solid rgba(67,66,93,0.549);
+}
+.Datos #cuadro2{
+	width: 520px;
+	height: 30px;
+	font-size:16px;
+	margin-bottom: 10px;
+}
+
+.Datos #cuadro2 #Apellido{
+	width: 200px;
+	height: 25px;
+	margin-left: 124px;
+	border: 3px solid rgba(67,66,93,0.549);
+}
+
+.Datos #cuadro3{
+	width: 800px;
+	height: 30px;
+	font-size:16px;
+	margin-bottom: 10px;
+}
+.Datos #cuadro3 #Correo{
+	width: 200px;
+	height: 25px;
+	border: 3px solid rgba(67,66,93,0.549);
+	margin-left: 24px;
+	margin-right: 40px;
+}
+.Datos #cuadro3 #B_datos{
+	width: 200px;
+	height: 38px;
+	border-radius: 20px;
+	border: 3px solid  rgba(96,60,186,1);
+	font-size: 16px;
+}
+
+
+
+
+
+.Contraseña{
+	position: absolute;
+	left: 550px;
+	top: 500px;
+	width: 750px;
+	height:90px;
+}
+.Contraseña #cuadro4{
+	width: 520px;
+	height: 30px;
+	margin-bottom: 10px;
+	
+}
+.Contraseña #cuadro4 #Contraseña{
+	width: 200px;
+	height: 25px;
+	margin-left: 101px;
+	border: 3px solid rgba(67,66,93,0.549);
+}
+.Contraseña #cuadro5{
+	width: 800px;
+	height: 30px;
+	font-size:16px;
+	margin-bottom: 10px;
+}
+.Contraseña #cuadro5 #CContraseña{
+	width: 200px;
+	height: 25px;
+	border: 3px solid rgba(67,66,93,0.549);
+	margin-left: 4px;
+	margin-right: 20px;
+}
+
+.Contraseña #cuadro5 #B_contraseña{
+	width: 200px;
+	height: 38px;
+	border-radius: 20px;
+	border: 3px solid  rgba(96,60,186,1);
+	font-size: 16px;
+}
+
+
+
+
+.Enfoque{
+	position: absolute;
+	left: 550px;
+	top: 650px;
+	width: 550px;
+	height:90px;
+}
+#Enfoque{
+	width: 200px;
+	height: 25px;
+	border: 3px solid rgba(67,66,93,0.549);
+	margin-right: 20px;
+
+}

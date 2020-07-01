@@ -1,0 +1,233 @@
+body{
+	width: 100%;
+	margin: auto;
+	max-width:2000px;
+	min-width: 600px;
+
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Login_Class {
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 1365px;
+	height: 624px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+
+img {
+	position: absolute;
+	width: 173px;
+	height: 200px;
+	left: 250px;
+	top: 210px;
+	overflow: visible;
+}
+
+
+.Rect_ngulo_180 {
+	position: absolute;
+	overflow: visible;	 
+	left: 680px;
+	top: 0px;
+	
+}
+
+.Rect_ngulo_6_cb {
+	position: absolute;
+	overflow: visible;
+	right:100px;
+	left: 0px;
+	top: 0px;
+}
+.Logo_Class {
+	position: absolute;
+	left: 910px;
+	top: 19px;
+	overflow: visible;
+	width: 256px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: KG Red Hands;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(67,66,93,1);
+	letter-spacing: 1px;
+}	
+
+.Registro_de_nuevos_usuarios_Class {
+	opacity: 0.5;
+	position: absolute;
+	left: 895px;
+	top: 80px;
+	overflow: visible;
+	width: 247px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(77,79,92,1);
+}
+
+.Registro{
+	position: absolute;
+	top: 150px;
+	left: 798px;
+	width: 500px;
+	height: 400px;
+}
+
+label{
+	width: 220px;
+	height: 100px;
+	border:3px rgba(233, 233, 240);
+	border-style: none none solid none; 
+	margin-left: 20px;
+	padding: 5px;
+}
+
+form #Nombre{
+	width: 130px;
+	height: 20px;
+	background: rgba(245, 244, 242);
+	border-style:none;
+	font-size: 15px;	
+	margin-left: 5px;
+	padding:5px;
+}
+
+form #Apellido{
+	width: 145px;
+	height: 20px;
+	background: rgba(245, 244, 242);
+	border-style:none;
+	font-family: Source Sans Pro;
+	font-size: 15px;	
+	margin-left: 5px;
+	padding:5px;
+}
+
+form .cuadro3{
+	left: 700px;
+	top: 150px;
+	width: 400px;
+	height: 30px;
+	border:3px rgba(233, 233, 240);
+	border-style:none none solid none;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+form .cuadro3 #Correo{
+	width: 260px;
+	height: 23px;
+	background: rgba(245, 244, 242);
+	border-style:none;
+	font-family: Source Sans Pro;
+	font-size: 15px;	
+	margin-left: 20px;	
+}
+
+form .cuadro4{
+	left: 700px;
+	top: 150px;
+	width: 400px;
+	height: 30px;
+	border:3px rgba(233, 233, 240);
+	border-style:none none solid none;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+form .cuadro4 #Contraseña{
+	width: 260px;
+	height: 23px;
+	background: rgba(245, 244, 242);
+	border-style:none;
+	font-family: Source Sans Pro;
+	font-size: 15px;	
+	margin-left: 60px;
+}
+
+form .cuadro5{
+	left: 700px;
+	top: 150px;
+	width: 400px;
+	height: 30px;
+	border:3px rgba(233, 233, 240);
+	border-style:none none solid none;
+	margin-top: 40px; 
+	margin-left: 20px;
+}
+form .cuadro5 #CContraseña{
+	width: 250px;
+	height: 23px;
+	background: rgba(245, 244, 242);
+	border-style:none;
+	font-family: Source Sans Pro;
+	font-size: 15px;	
+	margin-left: 10px;
+}
+form .cuadro6{
+	left: 700px;
+	top: 150px;
+	height: 30px;
+	border:3px rgba(233, 233, 240);
+	margin-top: 40px; 
+	margin-left: 20px;
+	
+}
+form #Enfoque{
+	left: 700px;
+	top: 150px;
+	width: 400px;
+	height: 30px;	
+	margin-left: 10px;
+}
+
+form .Condiciones #checkbox{	
+	font-family: Source Sans Pro;
+	margin-top: 20px;
+	margin-left: 85px
+}
+
+#B_Registrarse{
+	position: absolute;
+	width: 160px;
+	height: 40px;
+	left: 150px;
+	top: 370px;
+	overflow: visible;
+	background:rgba(183, 74, 26);
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	border-radius: 5px;
+}
+
+#R_Usuario{
+	font-family: Source Sans Pro;
+	margin-top: 50px;
+	margin-left: 120px;
+
+}
+
